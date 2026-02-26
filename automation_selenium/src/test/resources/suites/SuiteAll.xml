@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Automation Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.company.test.listeners.TestListener"/>
+    </listeners>
+    
+    <test name="Web Tests">
+        <parameter name="browserType" value="Chrome"/>
+        <parameter name="headless" value="false"/>
+        <parameter name="autoSetupDriver" value="true"/>
+        
+        <classes>
+            <class name="com.company.test.tests.RandomUserUITest"/>
+        </classes>
+    </test>
+</suite>

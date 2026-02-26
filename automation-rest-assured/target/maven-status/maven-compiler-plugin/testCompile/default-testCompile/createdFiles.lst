@@ -1,0 +1,3 @@
+com\automation\base\BaseTest.class
+com\automation\tests\user\UserApiTest.class
+com\automation\tests\user\DatabaseValidationTest.class
