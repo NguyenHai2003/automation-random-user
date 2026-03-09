@@ -6,39 +6,13 @@
   </listeners>
   <test thread-count="2" parallel="classes" name="User API Tests(failed)" verbose="0">
     <classes>
-      <class name="com.automation.tests.user.DatabaseValidationTest">
-        <methods>
-          <include name="validateDeleteRemovedRecord"/>
-          <include name="beforeMethod"/>
-          <include name="validateAuditLogAfterUpdate"/>
-          <include name="validateEmailUniquenessConstraint"/>
-          <include name="afterMethod"/>
-          <include name="validateUserInsertedAfterPost"/>
-          <include name="afterSuite"/>
-          <include name="validateUpdateReflectedInDb"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.automation.tests.user.DatabaseValidationTest -->
       <class name="com.automation.tests.user.UserApiTest">
         <methods>
-          <include name="testExternalConnect"/>
-          <include name="testUserCrudFlow"/>
-          <include name="testGetUsers"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="testSqlInjectionSearch"/>
-          <include name="testMissingFields"/>
-          <include name="testPerformance"/>
           <include name="beforeMethod"/>
-          <include name="testGetNonExistingId"/>
-          <include name="testPaginationLowBoundary"/>
           <include name="testExternalFailure"/>
+          <include name="afterMethod"/>
           <include name="afterSuite"/>
-          <include name="testInvalidDataType"/>
-          <include name="testGetApiInfo"/>
-          <include name="testPaginationMaxBoundary"/>
-          <include name="testDuplicateEmail"/>
-          <include name="testInvalidEmail"/>
+          <include name="beforeSuite"/>
         </methods>
       </class> <!-- com.automation.tests.user.UserApiTest -->
     </classes>

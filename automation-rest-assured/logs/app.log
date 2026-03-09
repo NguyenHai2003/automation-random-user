@@ -1,67 +1,72 @@
-2026-02-26 01:18:37 [main] INFO  LogUtils:12 - Initializing Automation Framework
-2026-02-26 01:18:37 [main] INFO  LogUtils:12 - Loaded environment config: D:\Projeck\random-user\automation-rest-assured\src\test\resources\config\configs-dev.properties
-2026-02-26 01:18:37 [main] INFO  LogUtils:12 - Active Environment: dev
-2026-02-26 01:18:37 [main] INFO  LogUtils:12 - Base URI: http://localhost:3005
-2026-02-26 01:18:37 [main] INFO  LogUtils:12 - Base Path: /
-2026-02-26 01:18:37 [main] INFO  LogUtils:12 - Starting Test Suite: User API Tests
-2026-02-26 01:18:37 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:37 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:37 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testDuplicateEmail
-2026-02-26 01:18:37 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateAuditLogAfterUpdate
-2026-02-26 01:18:39 [TestNG-test-User API Tests-2] ERROR LogUtils:30 - Test Failed: validateAuditLogAfterUpdate
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testDuplicateEmail
-2026-02-26 01:18:39 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testExternalConnect
-2026-02-26 01:18:39 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateDeleteRemovedRecord
-2026-02-26 01:18:39 [TestNG-test-User API Tests-2] ERROR LogUtils:30 - Test Failed: validateDeleteRemovedRecord
-2026-02-26 01:18:39 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateEmailUniquenessConstraint
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testExternalConnect
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testExternalFailure
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testExternalFailure
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testGetApiInfo
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testGetApiInfo
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testGetNonExistingId
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testGetNonExistingId
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testGetUsers
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testGetUsers
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testInvalidDataType
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testInvalidDataType
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testInvalidEmail
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testInvalidEmail
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testMissingFields
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testMissingFields
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testPaginationLowBoundary
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testPaginationLowBoundary
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testPaginationMaxBoundary
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testPaginationMaxBoundary
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:39 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testPerformance
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testPerformance
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testSqlInjectionSearch
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testSqlInjectionSearch
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testUserCrudFlow
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting User CRUD Flow
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Creating user: crud_judie.altenwerth@yahoo.com
-2026-02-26 01:18:40 [TestNG-test-User API Tests-1] ERROR LogUtils:30 - Test Failed: testUserCrudFlow
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] ERROR LogUtils:30 - Test Failed: validateEmailUniquenessConstraint
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateUpdateReflectedInDb
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] ERROR LogUtils:30 - Test Failed: validateUpdateReflectedInDb
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateUserInsertedAfterPost
-2026-02-26 01:18:40 [TestNG-test-User API Tests-2] ERROR LogUtils:30 - Test Failed: validateUserInsertedAfterPost
-2026-02-26 01:18:40 [main] INFO  LogUtils:12 - Finishing Test Suite: User API Tests
-2026-02-26 01:18:40 [main] INFO  LogUtils:12 - Stopping Automation Framework
+2026-03-09 17:08:18 [main] INFO  LogUtils:12 - Initializing Automation Framework
+2026-03-09 17:08:18 [main] INFO  LogUtils:12 - Loaded environment config: D:\Projeck\random-user\automation\automation-rest-assured\src\test\resources\config\configs-dev.properties
+2026-03-09 17:08:18 [main] INFO  LogUtils:12 - Active Environment: dev
+2026-03-09 17:08:18 [main] INFO  LogUtils:12 - Base URI: http://localhost:3000
+2026-03-09 17:08:18 [main] INFO  LogUtils:12 - Base Path: /
+2026-03-09 17:08:18 [main] INFO  LogUtils:12 - Starting Test Suite: User API Tests
+2026-03-09 17:08:18 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:18 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:18 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateAuditLogAfterUpdate
+2026-03-09 17:08:18 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testDuplicateEmail
+2026-03-09 17:08:20 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Duplicate email creation status: 400
+2026-03-09 17:08:20 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testDuplicateEmail
+2026-03-09 17:08:20 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:20 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testExternalConnect
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testExternalConnect
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testExternalFailure
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Passed: validateAuditLogAfterUpdate
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateDeleteRemovedRecord
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Passed: validateDeleteRemovedRecord
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateEmailUniquenessConstraint
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Passed: validateEmailUniquenessConstraint
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateUpdateReflectedInDb
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Passed: validateUpdateReflectedInDb
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Started: validateUserInsertedAfterPost
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] WARN  LogUtils:21 - Test Skipped: testExternalFailure
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testGetApiInfo
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testGetApiInfo
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testGetNonExistingId
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testGetNonExistingId
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testGetUsers
+2026-03-09 17:08:21 [TestNG-test-User API Tests-2] INFO  LogUtils:12 - Test Passed: validateUserInsertedAfterPost
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testGetUsers
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testInvalidDataType
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testInvalidDataType
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testInvalidEmail
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testInvalidEmail
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testMissingFields
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testMissingFields
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testPaginationLowBoundary
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testPaginationLowBoundary
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testPaginationMaxBoundary
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testPaginationMaxBoundary
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testPerformance
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Response time: 5ms
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testPerformance
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testSqlInjectionSearch
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testSqlInjectionSearch
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting Test Method
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Started: testUserCrudFlow
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Starting User CRUD Flow
+2026-03-09 17:08:21 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Creating user: crud_geneva.schaden@hotmail.com
+2026-03-09 17:08:22 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Getting user by ID: 94
+2026-03-09 17:08:22 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Updating user ID: 94
+2026-03-09 17:08:22 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Deleting user ID: 94
+2026-03-09 17:08:22 [TestNG-test-User API Tests-1] INFO  LogUtils:12 - Test Passed: testUserCrudFlow
+2026-03-09 17:08:22 [main] INFO  LogUtils:12 - Finishing Test Suite: User API Tests
+2026-03-09 17:08:22 [main] INFO  LogUtils:12 - Stopping Automation Framework
